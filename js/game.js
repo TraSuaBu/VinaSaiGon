@@ -58,7 +58,7 @@ function wack(e) {
   this.parentNode.classList.remove("up");
   scoreBoard.textContent = score;
 
-  if (score === 12) {
+  if (score === 7) {
     showModal();
   }
 }
