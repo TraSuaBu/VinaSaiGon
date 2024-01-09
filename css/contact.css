@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  height: 100vh;
+}
+
+.full {
+  width: 100%;
+  overflow: hidden;
+}
+
+.full img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

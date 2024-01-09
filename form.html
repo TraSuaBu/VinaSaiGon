@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Give Suggestions | We are always listening to you.
+	</title>
+	<link href="images/logo.png" rel="shortcut icon" />
+	<link rel="stylesheet" href="css/form.css" />
+</head>
+
+	<body>
+		<h1>Provide Feedback."</h1>
+
+		<!-- Create Form -->
+		<form id="form">
+
+			<!-- Details -->
+			<div class="form-control">
+				<label for="name" id="label-name">Name</label>
+				<input type="text" id="name" placeholder="Enter your name" />
+			</div>
+
+			<div class="form-control">
+				<label for="email" id="label-email">Email</label>
+				<input type="email" id="email" placeholder="Enter your email" />
+			</div>
+
+			<div class="form-control">
+				<label for="age" id="label-age">Age</label>
+				<input type="text" id="age" placeholder="Enter your age" />
+			</div>
+
+			<div class="form-control">
+				<label for="role" id="label-role">Which option best describes you?</label>
+				<select name="role" id="role">
+					<option value="student">Student</option>
+					<option value="intern">Intern</option>
+					<option value="professional">Professional</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+
+			<!-- Input Type Radio Button -->
+			<div class="form-control">
+				<label>Would you recommend VinaSaiGon. to a friend?</label>
+				<label for="recommed-1">
+					<input type="radio"
+						id="recommed-1"
+						name="recommed">Yes</input>
+				</label>
+				<label for="recommed-2">
+					<input type="radio"
+						id="recommed-2"
+						name="recommed">No</input>
+				</label>
+				<label for="recommed-3">
+					<input type="radio"
+						id="recommed-3"
+						name="recommed">Maybe</input>
+				</label>
+			</div>
+
+
+			<!-- Input Type Checkbox -->
+			<div class="form-control">
+				<label>Can you share a little about your experience here?
+					<br><small>(Check all that apply)</small>
+				</label>
+				<label for="inp-1">
+					<input type="checkbox"
+						name="inp">Food quality</input></label>
+				<label for="inp-2">
+					<input type="checkbox"
+						name="inp">Reception service</input></label>
+				<label for="inp-3">
+					<input type="checkbox"
+						name="inp">Service attitude</input></label>
+				<label for="inp-4">
+					<input type="checkbox"
+						name="inp">Environment and space</input></label>
+				<label for="inp-5">
+					<input type="checkbox"
+						name="inp">Convenient location for travel</input></label>
+				<label for="inp-6">
+					<input type="checkbox"
+						name="inp">Price and value</input></label>
+				<label for="inp-7">
+					<input type="checkbox"
+						name="inp">Other</input></label>
+			</div>
+
+
+			<!-- multi-line text input control -->
+			<div class="form-control">
+				<label for="comment">Any comments or suggestions?</label>
+				<textarea name="comment" id="comment" placeholder="Enter your comment here...">
+				</textarea>
+			</div>
+
+			<!-- Multi-line Text Input Control -->
+			<button type="button" onclick="saveData()" class="btn">Order Now</button>
+			
+		</form>
+
+		<script src="js/form.js"></script>
+		<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+		<footer>
+			Copyright @ 2023 by Mr. VanKiet
+		</footer>
+	</body>
+</html>

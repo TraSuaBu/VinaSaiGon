@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VinaSaiGon.</title>
+    <link href="images/logo.png" rel="shortcut icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--font awesome cdnjs link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+  </head>
+  <body>
+    <!--header section starts-->
+    <header>
+      <section class="flex">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> VinaSaiGon.</a>
+
+        <nav class="navbar">
+          <a class="active" href="#home"><i class="fa fa-home"></i> Home</a>
+          <a href="#dishes"><i class="fa fa-gift"></i> Dishes</a>
+          <a href="#about"><i class="fa fa-bowl-food"></i></i> About</a>
+          <a href="#menu"><i class="fa fa-burger"></i> Menu</a>
+          <a href="#drinks"><i class="fa fa-mug-hot"></i> Drinks</a>
+          <a href="#review"><i class="fa fa-pen-nib"></i> Review</a>
+          <a href="#order"><i class="fa fa-phone"></i> Order</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+          <a href="game.html" class="fas fa-gamepad"></a>
+          <a href="order.html" class="fas fa-shopping-cart"></a>
+          <a href="login.html" class="fas fa-user"></a>
+        </div>        
+      </section>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="Type to search..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <div class="container">
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Exclusive dishes</span>
+                <h3>Sweet Macaron</h3>
+                <p>
+                  "Macaron is a type of French pastry, round in shape, consisting of two layers of crispy cake sandwiching a layer of fatty filling. 
+                  Cakes come in many colors and flavors and are considered a symbol of French cuisine."
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-macaron.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Exclusive dishes</span>
+                <h3>Lovely Cupcake</h3>
+                <p>
+                  "A cupcake is a small cake, baked in a paper or aluminum-lined mold, and decorated with cream, candy, fruit or other toppings."
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-cupcake.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>Exclusive dishes</span>
+                <h3>cold cream</h3>
+                <p>
+                  "Ice cream is a sweet food, made from fresh milk or cream, sugar and other ingredients such as fruit, 
+                  chocolate, vanilla, etc. The ice cream is frozen to have a soft and smooth texture."
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="images/home-cream.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- dishes section starts  -->
+
+    <div class="container">
+      <section class="dishes" id="dishes">
+        <h3 class="sub-heading">our dishes</h3>
+        <h1 class="heading">popular dishes</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-chicken-1.png" class="dish-image" alt="" />
+            <h3>Golden Glaze Harvest Feast</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>279.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-burger-2.png" class="dish-image" alt="" />
+            <h3>Classic American Bliss Burger</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>169.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-chicken-3.png" class="dish-image" alt="" />
+            <h3>Honey Mustard Glazed Turkey</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>99.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-BBQ-4.png" class="dish-image" alt="" />
+            <h3>BBQ Blissful Banquet</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>189.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-burger-5.png" class="dish-image" alt="" />
+            <h3>Mega Bite Combo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>259.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/dish-BBQ-6.png" class="dish-image" alt="" />
+            <h3>Tasty T-Bone Treat</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>319.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- dishes section ends -->
+
+    <!-- about section starts  -->
+
+    <div class="container">
+      <div class="background-overlay"></div>
+      <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+          <div class="image">
+            <img src="images/about-pho-1.png" alt="" />
+          </div>
+
+          <div class="content">
+            <h3>best food in the country?</h3>
+            <p>
+                    "Pho is a type of soup with a pure broth base, usually cooked from chicken or beef bones, combined with spices such as onions, ginger, pepper and other herbs. 
+              The passionate aroma from the pho broth is characteristic and highlights the unique flavor of this dish."
+            </p>
+            <p>
+                    "Pho is not only a delicious dish but also a symbol of Vietnamese culinary culture, often enjoyed in the morning or at any time of the day. 
+              The combination of the rich flavor of the broth, the deliciousness of the spices and the nutrition of the ingredients makes pho a favorite and highly appreciated dish around the world."
+            </p>
+            <div class="icons-container">
+              <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <span>free delivery</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-euro-sign"></i>
+                <span>easy payments</span>
+              </div>
+              <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 service</span>
+              </div>
+            </div>
+            <a href="https://youtu.be/c9GfHgMk1ac?feature=shared" class="btn">learn more</a>
+            <a href="index.html#order" class="btn">Order Now</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <div class="container">
+      <section class="menu" id="menu">
+        <h3 class="sub-heading">our menu</h3>
+        <h1 class="heading">today's speciality</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-beef-1_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Flavorful Medley Platter</h3>
+              <p>
+                A plate of mixed meat includes a variety of meats such as beef, chicken along with sausages, grilled meat, etc...
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">299.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-chic-2_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>zucchini with chicken</h3>
+              <p>
+                Cheesy chicken is often a creative dish, with the chicken prepared with a creamy cheese coating...
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">149.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-chic-3_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Tender Chicken Rollatini</h3>
+              <p>
+                Chicken rolls often have an attractive shape, delicious taste and are often enjoyed fresh raw vegetables...
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">199.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-yum-4_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Spicy Thai Lemongrass</h3>
+              <p>
+                Shrimp in spicy is a great variation with fresh seafood combined with sour, spicy and sweet flavors. Shrimp are cleaned, peeled and can grilled or fried."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">319.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-salad-5_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Fresh Garden Medley</h3>
+              <p>
+                Salad is a very healthy, nutritious and versatile dish that can create many different flavors based on the flexible combination of ingredients."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">119.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-yum-6_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Buttery Garlic Crayfish</h3>
+              <p>
+                Grilled crayfish is a delicious and fresh dish that takes advantage of the natural flavor of crayfish, creating a simple, attractive and nutritious dish."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">499.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-hotpot-7_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Thai Seafood Hot Pot</h3>
+              <p>
+                Thai hot pot often has the typical flavor of Thai cuisine with the richness, diversity and appeal of foods and spices."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">339.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-hotpot-8_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Family-style Hot Pot</h3>
+              <p>
+                Family hot pot is not just a meal, but also an opportunity for everyone to interact, socialize and enjoy meals together."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">379.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-hotpot-9_11zon.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Fiery Tangy Hot Pot</h3>
+              <p>
+                Noodle hot pots often have the rich flavor of the typical broth, creating a warm, nutritious meal suitable for enjoying with family or friends."
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">369.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-cake-1.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Mascarpone Magic Cake</h3>
+              <p>
+                The sweet taste of love.
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">129.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-cake-2.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>Minty Fresh Delight</h3>
+              <p>
+                Fresh taste of green tea.
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">109.000vnđ</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/menu-cake-3.jpeg" alt="" />
+              <a href="#" class="heartIcon fas fa-heart"></a>
+            </div>
+            <div class="content">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating"></p>
+              <h3>BerryBliss Cream Cake</h3>
+              <p>
+                the cool taste of strawberries.
+              </p>
+              <div class="quantity">
+                <input type="button" value="-" class="minus">
+                <input type="text" class="qty" value="1">
+                <input type="button" value="+" class="plus">
+              </div>     
+              <a href="order.html" class="btn">add to cart</a>
+              <span class="price">139.000vnđ</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- menu section ends -->
+
+     <!-- drinks section starts  -->
+
+     <div class="container">
+      <section class="drinks" id="drinks">
+        <h3 class="sub-heading">our drinks</h3>
+        <h1 class="heading">popular drinks</h1>
+
+        <div class="box-container">
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-cafe-1.png" class="drink-image" alt="" />
+            <h3>Caramel Dream Delight</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>49.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-cocktail-2.png" class="drink-image" alt="" />
+            <h3>Tropical Sunset Serenade</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>139.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-soda-3.jpeg" class="drink-image" alt="" />
+            <h3>Lemon Lime Zest Zing</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>129.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-beer-4.png" class="drink-image" alt="" />
+            <h3>Heineken Green Oasis</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>69.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-beer-5.png" class="drink-image" alt="" />
+            <h3>Oakwood Orchard Lager</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>59.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="images/drinks-wine-6.png" class="drink-image" alt="" />
+            <h3>Moonlit Merlot Magic</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="rating"></p>
+            <div class="quantity">
+              <input type="button" value="-" class="minus">
+              <input type="text" class="qty" value="1">
+              <input type="button" value="+" class="plus">
+            </div>     
+            <span>799.000vnđ</span>
+            <a href="order.html" class="btn">add to cart</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- drinks section ends -->
+
+      <!--View More-->
+
+      <button class="view-more-btn" onclick="window.location.href = 'beer.html';">View More</button>
+    
+      <!--View More-->
+
+    <!-- review section starts  -->
+
+    <div class="container">
+      <section class="review" id="review">
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">what they say???</h1>
+
+        <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-1.png" alt="" />
+                <div class="user-info">
+                  <h3>David Beckham</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                My experience at this restaurant was memorable. First of all, the quality of the food is really impressive. Each dish is meticulously prepared, every detail is delicious and fresh. I especially like the César salad here, it has a unique taste and the ingredients are very fresh.
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-2.png" alt="" />
+                <div class="user-info">
+                  <h3>Jessica</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                The food at this restaurant is delicious, the service is attentive and quick. The space here is comfortable and feels very cozy. Prices are reasonable and feedback from staff has been positive. I really enjoyed my experience here and will come back next time.
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-3.png" alt="" />
+                <div class="user-info">
+                  <h3>Emanuel Macron</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Staff are very enthusiastic and ready to serve. The food is fresh and professionally prepared. I am very satisfied with my experience here.
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-4.png" alt="" />
+                <div class="user-info">
+                  <h3>Victoria Maddy</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Every time I come here, I always have a great experience. Delicious food, good service and cozy space. Reasonable prices with the quality that the restaurant brings.
+              </p>
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+          
+        </div>
+      </section>
+    </div>
+
+    <!-- review section ends -->
+
+    <!-- order section starts  -->
+
+    <div class="container">
+      <section class="order" id="order">
+        <h3 class="sub-heading light-text">order now</h3>
+        <h1 class="heading light-text">free and fast</h1>
+
+        <form action="">
+          <div class="inputBox">
+            <div class="input">
+              <span>your name</span>
+              <input type="text" id="name" placeholder="enter your name..." />
+            </div>
+            <div class="input">
+              <span>your phone number</span>
+              <input type="text" id="phone" placeholder="enter your number..." />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your order</span>
+              <input type="text" id="foodName" placeholder="enter food name..." />
+            </div>
+            <div class="input">
+              <span>additional food</span>
+              <input type="test" id="extraFood" placeholder="extra with food..." />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>how much</span>
+              <input type="number" id="orderQuantity" placeholder="how many orders..." />
+            </div>
+            <div class="input">
+              <span>date and time</span>
+              <input type="datetime-local" id="orderDateTime"/>
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your address</span>
+              <textarea
+                name=""
+                placeholder="enter your address..."
+                id="address"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="input">
+              <span>your message</span>
+              <textarea
+                name=""
+                id="message"
+                placeholder="enter your message..."
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+
+          <button type="button" onclick="saveData()" class="btn">Order Now</button>
+        </form>
+      </section>
+    </div>
+    <!-- order section ends -->
+
+     <!-- Chatbox -->
+     <button class="nut-mo-chatbox" onclick="moForm()">Chat with VinaSaiGon.</button>
+     <div class="Chatbox" id="myForm">
+       <form action="" class="form-container">
+         <h1>Chatbox</h1>
+ 
+         <label for="msg"><b>Email or Phone number</b></label>
+         <textarea placeholder="Please enter your email or phonenumber..." name="msg" required></textarea>
+         <label for="msg"><b>Message</b></label>
+         <textarea placeholder="Please enter your message..." name="msg" required></textarea>
+ 
+         <button type="submit" class="btn">Send</button>
+         <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Close</button>
+       </form>
+     </div>
+ 
+
+    <!-- footer section starts  -->
+
+    <div class="container">
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>locations</h3>
+            <a href="#">District 1</a>
+            <a href="#">District 3</a>
+            <a href="#">District 5</a>
+            <a href="#">BinhTan District</a>
+            <a href="#">BinhThanh District</a>
+          </div>
+
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html#home">home</a>
+            <a href="index.html#dishes">dishes</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="beer.html">drinks beer~!</a>
+            <a href="index.html#review">reivew</a>
+            <a href="index.html#order">order</a>
+          </div>
+
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="#">Hotline: 1800 7979</a>
+            <a href="contact.html">Phone: +84 79 997 5003</a>
+            <a href="mailto:vanphuckiet14112004@gmail.com">vanphuckiet@gmail.com</a>
+            <a href="mailto:2251012081kiet@ou.edu.vn">2251012081kiet@ou.edu.vn</a>
+            <a href="https://www.google.com/maps/place/97+V%C3%B5+V%C4%83n+T%E1%BA%A7n,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7765391,106.6879452,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3afd7416ff:0xe4bbdc83b3fb49f8!8m2!3d10.7765338!4d106.6905255!16s%2Fg%2F11bw4f6b7v?entry=ttu">District 3</a>
+            <a href="form.html">Feedback~!</a>
+          </div>
+
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100047216897552"><i class="bx bxl-facebook-circle"></i> Facebook</a>
+            <a href="#"><i class="bx bxl-tiktok"></i> Tiktok</a>
+            <a href="https://www.instagram.com/kietvan77/"><i class="bx bxl-instagram-alt"></i> Instagram</a>
+            <a href="https://github.com/TraSuaBu"><i class="bx bxl-github"></i></i> Github</a>
+            <a href="https://www.youtube.com/watch?v=djjAap5WIH4"><i class="bx bxl-youtube"></i> Youtube</a>
+          </div>
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>Mr. VanKiet</span></div>
+      </section>
+    </div>
+
+    <!-- footer section ends -->
+
+    <!--introduce-->
+
+    <svg viewBox="0 0 1800 350">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="50%"
+        dy=".35em">Van Phuc Kiet.</text>
+      </symbol>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+    </svg>
+
+    <!--introduce-->
+
+    <!-- loader part 
+      <div class="loader-container">
+      <img src="images/loader.gif" alt="">
+      </div>-->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- code chong click chuot + ctr u -->
+    <script type="text/JavaScript">
+      document.addEventListener("keydown", function (event){
+        if (event.ctrlKey){
+           event.preventDefault();
+        }
+        if(event.keyCode == 123){
+           event.preventDefault();
+        }
+    });
+    </script>
+        <script type="text/JavaScript">
+    var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false") 
+    </script>
+    <style>
+         body{
+              -webkit-touch-callout: none;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              -o-user-select: none;
+               user-select: none;
+             }
+    </style>
+            
+    <script>
+         function killCopy(e){
+               return false;
+         }
+    
+         function reEnable(){
+               return true;
+         }
+    
+         document.onselectstart=new Function ("return false");
+    
+         if (window.sidebar){
+               document.onmousedown=killCopy;
+               document.onclick=reEnable;
+         }
+    </script>
+    <style>
+    body{
+       -webkit-touch-callout: none;
+       -webkit-user-select: none; 
+       -moz-user-select: none;    
+       -ms-user-select: none;     
+       -o-user-select: none;
+        user-select: none;
+    }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && 
+                (e.keyCode === 67 || 
+                 e.keyCode === 86 || 
+                 e.keyCode === 85 || 
+                 e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+    };
+    $(document).keypress("u",function(e) {
+      if(e.ctrlKey)
+      {
+    return false;
+    }
+    else
+    {
+    return true;
+    }
+    });
+    </script>
+    <!-- code chong click chuot + ctr u -->
+  </body>
+</html>

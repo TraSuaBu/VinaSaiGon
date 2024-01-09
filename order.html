@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VinaSaiGon. Ordering Page</title>
+    <link rel="stylesheet" href="css/order.css" />
+    <link href="images/logo.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="product.json" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>VinaSaiGon. Hello! ~ You can order here.</h1>
+        <div class="iconCart">
+          <img src="zicon.png" />
+          <div class="totalQuantity">0</div>
+        </div>
+      </header>
+
+      <div class="listProduct">
+        <div class="item">
+          <img src="images/dish-chicken-1.png" alt="" />
+          <h2>Chicken / Burger / BBQ</h2>
+          <div class="price">279000</div>
+          <button>Add To Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="cart">
+      <h2>CART SHOPPING</h2>
+
+      <div class="listCart">
+        <div class="item">
+          <img src="images/dish-chicken-1.png" />
+          <div class="content">
+            <div class="name">Chicken / Burger / BBQ</div>
+            <div class="price">279000 / 1 product</div>
+          </div>
+          <div class="quantity">
+            <button>-</button>
+            <span class="value">3</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <div class="close">CLOSE</div>
+        <div class="checkout">
+          <a href="checkout.html">CHECKOUT</a>
+        </div>
+      </div>
+    </div>
+    <!--End-->
+
+    <!-- code chong click chuot + ctr u -->
+    <script type="text/JavaScript">
+        document.addEventListener("keydown", function (event){
+          if (event.ctrlKey){
+             event.preventDefault();
+          }
+          if(event.keyCode == 123){
+             event.preventDefault();
+          }
+      });
+    </script>
+    <script type="text/JavaScript">
+      var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
+    </script>
+    <style>
+      body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      }
+    </style>
+
+    <script>
+      function killCopy(e) {
+        return false;
+      }
+
+      function reEnable() {
+        return true;
+      }
+
+      document.onselectstart = new Function("return false");
+
+      if (window.sidebar) {
+        document.onmousedown = killCopy;
+        document.onclick = reEnable;
+      }
+    </script>
+    <style>
+      body {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+      }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      document.onkeydown = function (e) {
+        if (
+          e.ctrlKey &&
+          (e.keyCode === 67 ||
+            e.keyCode === 86 ||
+            e.keyCode === 85 ||
+            e.keyCode === 117)
+        ) {
+          return false;
+        } else {
+          return true;
+        }
+      };
+      $(document).keypress("u", function (e) {
+        if (e.ctrlKey) {
+          return false;
+        } else {
+          return true;
+        }
+      });
+    </script>
+    <!-- code chong click chuot + ctr u -->
+
+    <!--Javascript-->
+    <script src="js/order.js"></script>
+
+    <footer>Copyright @ 2023 by Mr. VanKiet</footer>
+  </body>
+</html>

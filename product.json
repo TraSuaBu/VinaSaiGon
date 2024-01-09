@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Sweet Macaron",
+    "price": 79000,
+    "image": "images/home-macaron.png"
+  },
+  {
+    "id": 2,
+    "name": "Lovely Cupcake",
+    "price": 59000,
+    "image": "images/home-cupcake.png"
+  },
+  {
+    "id": 3,
+    "name": "Cold Cream",
+    "price": 49000,
+    "image": "images/home-cream.png"
+  },
+  {
+    "id": 4,
+    "name": "Golden Glaze Harvest Feast",
+    "price": 279000,
+    "image": "images/dish-chicken-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Classic American Bliss Burger",
+    "price": 169000,
+    "image": "images/dish-burger-2.png"
+  },
+  {
+    "id": 6,
+    "name": "Honey Mustard Glazed Turkey",
+    "price": 99000,
+    "image": "images/dish-chicken-3.png"
+  },
+  {
+    "id": 7,
+    "name": "BBQ Blissful Banquet",
+    "price": 189000,
+    "image": "images/dish-BBQ-4.png"
+  },
+  {
+    "id": 8,
+    "name": "Mega Bite Combo",
+    "price": 259000,
+    "image": "images/dish-burger-5.png"
+  },
+  {
+    "id": 9,
+    "name": "Tasty T-Bone Treat",
+    "price": 319000,
+    "image": "images/dish-BBQ-6.png"
+  },
+  {
+    "id": 10,
+    "name": "Buffet Combo A",
+    "price": 249000,
+    "image": "images/saleoff 1.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Pho VietNam",
+    "price": 49000,
+    "image": "images/about-pho-1.png"
+  },
+  {
+    "id": 12,
+    "name": "Buffet Combo B",
+    "price": 259000,
+    "image": "images/saleoff 2.jpeg"
+  },
+  {
+    "id": 13,
+    "name": "Flavorful Medley Platter",
+    "price": 299000,
+    "image": "images/menu-beef-1_11zon.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Zucchini with Chicken",
+    "price": 149000,
+    "image": "images/menu-chic-2_11zon.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Tender Chicken Rollatini",
+    "price": 199000,
+    "image": "images/menu-chic-3_11zon.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Spicy Thai Lemongrass",
+    "price": 319000,
+    "image": "images/menu-yum-4_11zon.jpeg"
+  },
+  {
+    "id": 17,
+    "name": "Fresh Garden Medley",
+    "price": 119000,
+    "image": "images/menu-salad-5_11zon.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Buttery Garlic Crayfish",
+    "price": 499000,
+    "image": "images/menu-yum-6_11zon.jpeg"
+  },
+  {
+    "id": 19,
+    "name": "Thai Seafood Hot Pot",
+    "price": 339000,
+    "image": "images/menu-hotpot-7_11zon.jpeg"
+  },
+  {
+    "id": 20,
+    "name": "Family-style Hot Pot",
+    "price": 379000,
+    "image": "images/menu-hotpot-8_11zon.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "Fiery Tangy Hot Pot",
+    "price": 369000,
+    "image": "images/menu-hotpot-9_11zon.jpeg"
+  },
+  {
+    "id": 22,
+    "name": "Mascarpone Magic Cake",
+    "price": 129000,
+    "image": "images/menu-cake-1.jpeg"
+  },
+  {
+    "id": 23,
+    "name": "Minty Fresh Delight",
+    "price": 109000,
+    "image": "images/menu-cake-2.jpeg"
+  },
+  {
+    "id": 24,
+    "name": "BerryBliss Cream Cake",
+    "price": 139000,
+    "image": "images/menu-cake-3.jpeg"
+  },
+  {
+    "id": 25,
+    "name": "Caramel Dream Delight",
+    "price": 49000,
+    "image": "images/drinks-cafe-1.png"
+  },
+  {
+    "id": 26,
+    "name": "Tropical Sunset Serenade",
+    "price": 139000,
+    "image": "images/drinks-cocktail-2.png"
+  },
+  {
+    "id": 27,
+    "name": "Lemon Lime Zest Zing",
+    "price": 129000,
+    "image": "images/drinks-soda-3.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "Heineken Green Oasis",
+    "price": 69000,
+    "image": "images/drinks-beer-4.png"
+  },
+  {
+    "id": 29,
+    "name": "Oakwood Orchard Lager",
+    "price": 59000,
+    "image": "images/drinks-beer-5.png"
+  },
+  {
+    "id": 30,
+    "name": "Moonlit Merlot Magic",
+    "price": 799000,
+    "image": "images/drinks-wine-6.png"
+  },
+  {
+    "id": 31,
+    "name": "Cool Fresh Beer",
+    "price": 69000,
+    "image": "images/home-beer-1.png"
+  },
+  {
+    "id": 32,
+    "name": "RainbowCocktail",
+    "price": 179000,
+    "image": "images/home-cocktail-2.png"
+  },
+  {
+    "id": 33,
+    "name": "RoyalRosé Wine",
+    "price": 6999000,
+    "image": "images/home-wine-3.png"
+  },
+  {
+    "id": 34,
+    "name": "Ben Thanh Saigon Green Beer 900ml",
+    "price": 29000,
+    "image": "assets/beer 1.png"
+  },
+  {
+    "id": 35,
+    "name": "Ben Thanh Saigon Red Beer 900ml",
+    "price": 27000,
+    "image": "assets/beer 2.png"
+  },
+  {
+    "id": 36,
+    "name": "Ben Thanh Saigon Ong Gia Beer 900ml",
+    "price": 26000,
+    "image": "assets/beer 3.png"
+  },
+  {
+    "id": 37,
+    "name": "Craft Green Draft Beer 900ml",
+    "price": 25000,
+    "image": "assets/beer 4.png"
+  },
+  {
+    "id": 38,
+    "name": "Hemsi Saigon Beer 900ml",
+    "price": 28000,
+    "image": "assets/beer 5.png"
+  },
+  {
+    "id": 39,
+    "name": "Golden Tower Beer 3 liters",
+    "price": 79000,
+    "image": "assets/beer 6.png"
+  },
+  {
+    "id": 40,
+    "name": "Vina Saigon Red Beer 900ml",
+    "price": 39000,
+    "image": "assets/beer 7.png"
+  },
+  {
+    "id": 41,
+    "name": "Vina Saigon Green Beer 900ml",
+    "price": 29000,
+    "image": "assets/beer 8.png"
+  },
+  {
+    "id": 42,
+    "name": "Naviken Green Draft Beer 900ml",
+    "price": 23000,
+    "image": "assets/beer 9.png"
+  },
+  {
+    "id": 43,
+    "name": "Vina Saigon Ho Lo Beer 500ml",
+    "price": 21000,
+    "image": "assets/beer 10.png"
+  },
+  {
+    "id": 44,
+    "name": "Vina Saigon Green Beer 400ml",
+    "price": 24000,
+    "image": "assets/beer 11.png"
+  },
+  {
+    "id": 45,
+    "name": "Vina Saigon Black Beer 900ml",
+    "price": 28000,
+    "image": "assets/beer 12.png"
+  }
+]

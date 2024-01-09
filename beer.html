@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beer VinaSaiGon.</title>
+    <link href="images/logo.png" rel="shortcut icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--font awesome cdnjs link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/beer.css" />
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+  </head>
+  <body>
+    <!--header section starts-->
+    <header>
+      <section class="flex">
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> VinaSaiGon.</a>
+
+        <nav class="navbar">
+          <a class="active" href="#home"><i class="fa fa-home"></i> Home</a>
+          <a href="index.html#dishes"><i class="fa fa-gift"></i> Dishes</a>
+          <a href="index.html#about"><i class="fa fa-bowl-food"></i></i> About</a>
+          <a href="index.html#menu"><i class="fa fa-burger"></i> Menu</a>
+          <a href="#drinks"><i class="fa fa-mug-hot"></i> Drinks</a>
+          <a href="#review"><i class="fa fa-pen-nib"></i> Review</a>
+          <a href="#order"><i class="fa fa-phone"></i> Order</a>
+        </nav>
+
+        <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>
+          <i class="fas fa-search" id="search-icon"></i>
+          <a href="#" class="fas fa-lightbulb" id="light-icon"></a>
+          <a href="order.html" class="fas fa-shopping-cart" id="cartIcon" data-quantity="0"></a>
+          <a href="login.html" class="fas fa-user"></a>
+        </div>
+      </section>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="Type to search..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <div class="container">
+      <section class="home" id="home">
+        <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special beer</span>
+                <h3>Cool Fresh Beer'</h3>
+                <p>  
+                    "Cool Fresh Beer" is a type of beer that embodies a refreshing and cool taste. 
+                    With its clear color and pleasant aroma, this beer provides a refreshing sensation right from the first glance.'
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="assets/home-beer-1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special cocktail</span>
+                <h3>RainbowCocktail'</h3>
+                <p>
+                    "Rainbow Cocktail" is a lively and colorful drink that tantalizes your senses with diverse flavors. 
+                    Its appealing appearance offers an exciting experience for those seeking a fusion of vibrant tastes.'
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="assets/home-cocktail-2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-slide slide">
+              <div class="content">
+                <span>our special wine</span>
+                <h3>RoyalRosé Wine'</h3>
+                <p>
+                  “Royal Rosé Wine” is a sophisticated and luxurious choice for a wine name.
+                  It conveys a sense of royalty and aristocracy, suggesting a high-quality rosé suitable for special occasions or luxurious, romantic.'
+                </p>
+                <a href="#" class="btn">order now</a>
+              </div>
+              <div class="image">
+                <img src="assets/home-wine-3.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- home section ends -->
+
+     <!-- drinks section starts  -->
+
+     <div class="container">
+      <div class="background-overlay"></div>
+      <section class="drinks" id="drinks">
+        <h3 class="sub-heading">our drinks</h3>
+        <h1 class="heading">popular drinks</h1>
+
+        <div class="box-container">
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 1.png" class="drink-image" alt="" />
+            <h3>Ben Thanh Saigon Green Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>   
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>       
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart" data-item="1">Add to Cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 2.png" class="drink-image" alt="" />
+            <h3>Ben Thanh Saigon Red Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 3.png" class="drink-image" alt="" />
+            <h3>Ben Thanh Saigon Ong Gia Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 4.png" class="drink-image" alt="" />
+            <h3>Craft Green Draft Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 5.png" class="drink-image" alt="" />
+            <h3>Hemsi Saigon Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 6.png" class="drink-image" alt="" />
+            <h3>Golden Tower Beer 3 liters</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+          
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 7.png" class="drink-image" alt="" />
+            <h3>Vina Saigon Red Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 8.png" class="drink-image" alt="" />
+            <h3>Vina Saigon Green Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 9.png" class="drink-image" alt="" />
+            <h3>Naviken Green Draft Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 10.png" class="drink-image" alt="" />
+            <h3>Vina Saigon Ho Lo Beer 500ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 11.png" class="drink-image" alt="" />
+            <h3>Vina Saigon Green Beer 400ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+
+          <div class="box">
+            <a href="#" class="heartIcon fas fa-heart"></a>
+            <a href="#" class="eyeIcon fas fa-eye"></a>
+            <img src="assets/beer 12.png" class="drink-image" alt="" />
+            <h3>Vina Saigon Black Beer 900ml</h3>
+            <div class="stars">
+              <i class="fas fa-star" data-index="1"></i>
+              <i class="fas fa-star" data-index="2"></i>
+              <i class="fas fa-star" data-index="3"></i>
+              <i class="fas fa-star" data-index="4"></i>
+              <i class="fas fa-star" data-index="5"></i>
+            </div>
+                  <p class="rating"></p>
+                  <div class="quantity">
+                    <input type="button" value="-" class="minus">
+                    <input type="text" class="qty" value="1">
+                    <input type="button" value="+" class="plus">
+                  </div>     
+            <a href="contact.html" class="btn">Contact</a>
+            <a href="order.html" class="btn addToCart">add to cart</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- drinks section ends -->
+
+    <!--Sale off-->
+    
+    <div id="saleoff">
+      <div class="box-left">
+        <h1>
+          <span>Discounts of up to</span>
+          <span>45%</span>
+        </h1>
+      </div>
+      <div class="box-right">
+        <a href="index.html">
+          <img src="assets/sale off 1.jpeg" alt="Sale Off Image">
+        </a>
+      </div>
+    </div>
+    
+
+    <!--Sale off-->
+
+    
+
+    <!-- review section starts  -->
+
+    <div class="container">
+      <section class="review" id="review">
+        <h3 class="sub-heading">customer's review</h3>
+        <h1 class="heading">what they say???</h1>
+
+        <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-1.png" alt="" />
+                <div class="user-info">
+                  <h3>David Beckham</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Packaging and branding: Packaging perception, bottle design, and brand perception can influence customers purchasing decisions. Good!!!
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-2.png" alt="" />
+                <div class="user-info">
+                  <h3>Jessica</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                So perfect! Product diversity: Diversity in beer types, from lagers, ales, stouts, IPA (India Pale Ale), and craft beers can create a diverse perception from customers.
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-3.png" alt="" />
+                <div class="user-info">
+                  <h3>Emmanuel Macron</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Drinking experience: Customers can evaluate the beer drinking experience through sipping, feeling delicious, feeling cold, or feeling emotional while enjoying.
+              </p>
+            </div>
+
+            <div class="swiper-slide slide">
+              <i class="fas fa-quote-right"></i>
+              <div class="user">
+                <img src="images/review-ava-4.png" alt="" />
+                <div class="user-info">
+                  <h3>Victoria Maddy</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                  </div>
+                </div>
+              </div>
+              <p>
+                Taste: Customers can taste bitter, sweet, sour, or smell aromas from different types of beer.
+
+Quality: Perception of beer quality, including consistency, smoothness, and freshness of the product.
+              </p>
+            </div>
+          </div>
+          
+          <div class="swiper-pagination"></div>
+          
+        </div>
+      </section>
+    </div>
+
+    <!-- review section ends -->
+
+<!--View More-->
+
+<button class="view-more-btn" onclick="window.location.href = 'index.html';">View More</button>
+    
+<!--View More-->
+
+    <!-- order section starts  -->
+
+    <div class="container">
+      <section class="order" id="order">
+        <h3 class="sub-heading light-text">order now</h3>
+        <h1 class="heading light-text">free and fast</h1>
+
+        <form action="">
+          <div class="inputBox">
+            <div class="input">
+              <span>your name</span>
+              <input type="text" id="name" placeholder="enter your name..." />
+            </div>
+            <div class="input">
+              <span>your phone number</span>
+              <input type="text" id="phone" placeholder="enter your number..." />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your order</span>
+              <input type="text" id="foodName" placeholder="enter food name..." />
+            </div>
+            <div class="input">
+              <span>additional food</span>
+              <input type="test" id="extraFood" placeholder="extra with food..." />
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>how much</span>
+              <input type="number" id="orderQuantity" placeholder="how many orders..." />
+            </div>
+            <div class="input">
+              <span>date and time</span>
+              <input type="datetime-local" id="orderDateTime"/>
+            </div>
+          </div>
+          <div class="inputBox">
+            <div class="input">
+              <span>your address</span>
+              <textarea
+                name=""
+                placeholder="enter your address..."
+                id="address"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="input">
+              <span>your message</span>
+              <textarea
+                name=""
+                id="message"
+                placeholder="enter your message..."
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+          </div>
+
+          <button type="button" onclick="saveData()" class="btn">Order Now</button>
+        </form>
+      </section>
+    </div>
+    <!-- order section ends -->
+
+    <!-- Nút Bên Trái Trang Web -->
+  
+
+
+    <!-- Chatbox -->
+    <!-- Nút Bên Phải Trang Web -->
+      <button class="nut-mo-chatbox" onclick="moForm()">Chat with VinaSaiGon.</button>
+      <div class="Chatbox" id="myForm">
+        <form action="" class="form-container">
+          <h1>Chatbox</h1>
+
+          <label for="msg"><b>Email or Phone number</b></label>
+          <textarea placeholder="Please enter your email or phonenumber..." name="msg" required></textarea>
+          <label for="msg"><b>Message</b></label>
+          <textarea placeholder="Please enter your message..." name="msg" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+          <button type="button" class="btn nut-dong-chatbox" onclick="dongForm()">Close</button>
+        </form>
+      </div>
+
+    <!-- footer section starts  -->
+
+    <div class="container">
+      <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>locations</h3>
+            <a href="#">District 1</a>
+            <a href="#">District 3</a>
+            <a href="#">District 5</a>
+            <a href="#">BinhTan District</a>
+            <a href="#">BinhThanh District</a>
+          </div>
+
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="beer.html#home">home</a>
+            <a href="index.html#dishes">dishes</a>
+            <a href="index.html#about">about</a>
+            <a href="index.html#menu">menu</a>
+            <a href="index.html#drinks">drinks</a>
+            <a href="beer.html#review">reivew</a>
+            <a href="beer.html#order">order</a>
+          </div>
+
+          <div class="box">
+            <h3>contact info</h3>
+            <a href="#">Hotline: 1800 7979</a>
+            <a href="contact.html">Phone: +84 79 997 5003</a>
+            <a href="mailto:vanphuckiet14112004@gmail.com">vanphuckiet@gmail.com</a>
+            <a href="mailto:2251012081kiet@ou.edu.vn">2251012081kiet@ou.edu.vn</a>
+            <a href="https://www.google.com/maps/place/97+V%C3%B5+V%C4%83n+T%E1%BA%A7n,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7765391,106.6879452,17z/data=!3m1!4b1!4m6!3m5!1s0x31752f3afd7416ff:0xe4bbdc83b3fb49f8!8m2!3d10.7765338!4d106.6905255!16s%2Fg%2F11bw4f6b7v?entry=ttu">District 3</a>
+            <a href="form.html">Feedback~!</a>
+          </div>
+
+          <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100047216897552"><i class="bx bxl-facebook-circle"></i> Facebook</a>
+            <a href="#"><i class="bx bxl-tiktok"></i> Tiktok</a>
+            <a href="https://www.instagram.com/kietvan77/"><i class="bx bxl-instagram-alt"></i> Instagram</a>
+            <a href="https://github.com/TraSuaBu"><i class="bx bxl-github"></i></i> Github</a>
+            <a href="https://www.youtube.com/watch?v=Zy2S5TslOlw"><i class="bx bxl-youtube"></i> Youtube</a>
+          </div>
+        </div>
+
+        <div class="credit">copyright @ 2023 by <span>Mr. VanKiet</span></div>
+      </section>
+    </div>
+
+    <!-- footer section ends -->
+
+    <!--introduce-->
+
+    <svg viewBox="0 0 1800 350">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="50%"
+        dy=".35em">Van Phuc Kiet.</text>
+      </symbol>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+      <use class="text" xlink: href="#s-text"></use>
+    </svg>
+
+    <!--introduce-->
+
+    <!-- loader part 
+      <div class="loader-container">
+      <img src="images/loader.gif" alt="">
+      </div> -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/beer.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- code chong click chuot + ctr u -->
+    <script type="text/JavaScript">
+      document.addEventListener("keydown", function (event){
+        if (event.ctrlKey){
+           event.preventDefault();
+        }
+        if(event.keyCode == 123){
+           event.preventDefault();
+        }
+    });
+    </script>
+        <script type="text/JavaScript">
+    var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false") 
+    </script>
+    <style>
+         body{
+              -webkit-touch-callout: none;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              -o-user-select: none;
+               user-select: none;
+             }
+    </style>
+            
+    <script>
+         function killCopy(e){
+               return false;
+         }
+    
+         function reEnable(){
+               return true;
+         }
+    
+         document.onselectstart=new Function ("return false");
+    
+         if (window.sidebar){
+               document.onmousedown=killCopy;
+               document.onclick=reEnable;
+         }
+    </script>
+    <style>
+    body{
+       -webkit-touch-callout: none;
+       -webkit-user-select: none; 
+       -moz-user-select: none;    
+       -ms-user-select: none;     
+       -o-user-select: none;
+        user-select: none;
+    }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && 
+                (e.keyCode === 67 || 
+                 e.keyCode === 86 || 
+                 e.keyCode === 85 || 
+                 e.keyCode === 117)) {
+                return false;
+            } else {
+                return true;
+            }
+    };
+    $(document).keypress("u",function(e) {
+      if(e.ctrlKey)
+      {
+    return false;
+    }
+    else
+    {
+    return true;
+    }
+    });
+    </script>
+    <!-- code chong click chuot + ctr u -->
+  </body>
+</html>
